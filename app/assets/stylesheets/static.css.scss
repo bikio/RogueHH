@@ -6,6 +6,13 @@
   .nav {
     display: none;
   }
+  #introtxt {
+    font-size: 25px;
+    margin-top: 250px;
+  }
+  #introsmall {
+    font-size: 20px;
+  }
 }
 
 .navbar {
@@ -20,24 +27,26 @@
   }
 
  .navtxt {
-    font-size: 25px;
+    font-size: 18px;
 
  } 
 
 .logo {
-  height: 100px;
+  height: 90px;
   display: inline-block;
   margin: 0 auto;
+  padding-top: 7px;
   padding-left: 0px;
 }
 
 body {
-  background-color: beige;
+  background-color: white;
   }
 
   .header-wrap {
     background: asset-url('youngin.png') no-repeat center top;
     padding-top: 140px;
+    position: static;
     margin-top: -50px;
     min-height: 750px;
     width: 100%;
@@ -56,6 +65,7 @@ body {
         font-weight: bold;
         padding-bottom: 20px;
         margin-top: 170px;
+        margin-left: 100px;
         color: #ecf0f1;
     }
 
@@ -64,6 +74,11 @@ body {
         font-weight: 300;
         line-height: 26px;
         letter-spacing: 0.5px;
+        margin-left: 100px;
         color: #ecf0f1;
     }
+#flies {
+  margin-bottom: 50px;
+}
+
 
