@@ -28,9 +28,42 @@
   height: 100px;
   display: inline-block;
   margin: 0 auto;
-  padding-left: 70px;
+  padding-left: 0px;
 }
 
 body {
   background-color: beige;
   }
+
+  .header-wrap {
+    background: asset-url('youngin.png') no-repeat center top;
+    padding-top: 140px;
+    margin-top: -50px;
+    min-height: 750px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+       -moz-background-size: 100%;
+            background-size: 100%;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+}
+
+    .header-wrap h1 {
+        font-size: 100px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        margin-top: 170px;
+        color: #ecf0f1;
+    }
+
+    .header-wrap p {
+        font-size: 38px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        color: #ecf0f1;
+    }
+
