@@ -1,0 +1,21 @@
+<div id="navbar-main">
+  <div class="navbar  navbar-inverse  navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#home"><%= image_tag "logo.png", class: "logo" %></a>
+      </div>
+        <ul class="nav  navbar-nav  navbar-right">
+          <li><a href="#flies" class="navtxt">products</a></li>
+          <li><a href="#about" class="navtxt">about</a></li>
+            <!--<a href="#cartModal" id='cart-button' data-target="#cartModal" data-toggle="modal">
+              <i class="fa fa-shopping-cart fa-2x"></i> -->
+              <%# if @order.line_items.any? %>
+                <%#= pluralize(@order.line_items.sum(:quantity), 'fly') %>
+              <%# end %>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

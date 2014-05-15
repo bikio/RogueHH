@@ -2,22 +2,35 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+ @media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
 .navbar {
   height:100px;
   background-color: white;
   border-style: none;
+  display: inline-block;
 }
-
-body {
-  background-color: beige;
-  }
 
 .navbar ul li {
     padding-top: 25px;
   }
 
+ .navtxt {
+    font-size: 25px;
+
+ } 
+
 .logo {
   height: 100px;
   display: inline-block;
   margin: 0 auto;
+  padding-left: 70px;
 }
+
+body {
+  background-color: beige;
+  }
