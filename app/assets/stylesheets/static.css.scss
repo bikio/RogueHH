@@ -45,6 +45,7 @@ body {
 
   .header-wrap {
     background: asset-url('youngin.png') no-repeat center top;
+    background-attachment: fixed;
     padding-top: 140px;
     position: static;
     margin-top: -50px;
