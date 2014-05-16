@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-window.onscroll = function() {
-  document.body.style.backgroundPosition = ”0“ + (-(window.pageYOffset / 2)) + ”px”;
-}
+
+//likely unneccessary code for parallax:
+//window.onscroll = function() {
+//document.body.style.backgroundPosition = ”0“ + (-(window.pageYOffset / 2)) + ”px”;
+//}
