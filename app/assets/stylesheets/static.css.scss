@@ -91,9 +91,8 @@ body {
 #testimonial {
     background: asset-url('grill.png') no-repeat center top;
     background-attachment: fixed;
-    padding-top: 140px;
+    padding-top: 90px;
     position: static;
-    margin-top: -50px;
     min-height: 300px;
     width: 100%;
 
@@ -122,11 +121,10 @@ body {
 
 #about {
     background: white;
-    padding-top: 140px;
     position: static;
-    margin-top: -50px;
     min-height: 300px;
-    width: 100%;
+
+
 
     -webkit-background-size: 100%;
        -moz-background-size: 100%;
