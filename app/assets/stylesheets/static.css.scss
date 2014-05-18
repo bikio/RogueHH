@@ -9,14 +9,18 @@
   #introtxt {
     font-size: 25px;
     margin-top: 250px;
+    margin-left: 20px;
   }
   #introsmall {
     font-size: 20px;
+    margin-left: 20px;
   }
-  .logo {
-    position: float left;
-  }
+
   #facebook-button, #instagram-button {
+    display: none;
+  }
+
+  #testimonial h4, #testimonial p {
     display: none;
   }
 }
@@ -34,7 +38,7 @@
 
  .navtxt {
     font-size: 18px;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
  } 
 
@@ -69,18 +73,18 @@ body {
 }
 
     .header-wrap h1 {
-        font-size: 70px;
-        font-family: sans-serif;
+        font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
         font-weight: bold;
         padding-bottom: 20px;
-        margin-top: 170px;
+        margin-top: 200px;
         margin-left: 300px;
         color: #ecf0f1;
     }
 
     .header-wrap p {
-        font-size: 38px;
-        font-family: sans-serif;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         line-height: 26px;
         letter-spacing: 0.5px;
@@ -89,6 +93,9 @@ body {
     }
 #flies {
   margin-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+
 }
 #flies p {
   color:black;
@@ -112,23 +119,25 @@ body {
 }
 #testimonial h4 {
   color: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 #testimonial p {
   color: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: 150px;
+  padding-left: 160px;
 }
 
 #about {
     background: white;
     position: static;
     min-height: 300px;
+    padding-right: 75px;
+    padding-left: 75px;
 
 
 
@@ -151,12 +160,12 @@ body {
     position:fixed;
     padding-top: 270px;
     width: 70px;
-    margin-left: -90px;
+    margin-left: -70px;
 }
 
 #facebook-button img {
     position:fixed;
     padding-top: 190px;
     width: 70px;
-    margin-left: -90px;
+    margin-left: -70px;
 }
