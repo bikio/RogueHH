@@ -13,6 +13,12 @@
   #introsmall {
     font-size: 20px;
   }
+  .logo {
+    position: float left;
+  }
+  #facebook-button, #instagram-button {
+    display: none;
+  }
 }
 
 .navbar {
@@ -37,7 +43,7 @@
   display: inline-block;
   margin: 0 auto;
   margin-top: 7px;
-  padding-left: 420px;
+  padding-left: 0px;
 }
 
 body {
@@ -138,18 +144,19 @@ body {
 #instagram-button img,
 #facebook-button img {
     background: none;
+    margin-top: 15px;
 }
 
 #instagram-button img {
-    margin-top: 12px;
     position:fixed;
-    height: 70px;
-    padding-left: 0px;
+    padding-top: 270px;
+    width: 70px;
+    margin-left: -90px;
 }
 
 #facebook-button img {
-    margin-top: 12px;
     position:fixed;
-    height: 70px;
-    padding-left: 70px;
+    padding-top: 190px;
+    width: 70px;
+    margin-left: -90px;
 }
