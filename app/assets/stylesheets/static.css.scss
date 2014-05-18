@@ -37,7 +37,7 @@
   display: inline-block;
   margin: 0 auto;
   margin-top: 7px;
-  padding-left: 0px;
+  padding-left: 420px;
 }
 
 body {
@@ -89,7 +89,7 @@ body {
 }
 
 #testimonial {
-    background: asset-url('grill.png') no-repeat center top;
+    background: asset-url('bonerexplode.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 90px;
     position: static;
@@ -133,4 +133,23 @@ body {
     -webkit-background-size: cover;
        -moz-background-size: cover;
             background-size: cover;
+}
+
+#instagram-button img,
+#facebook-button img {
+    background: none;
+}
+
+#instagram-button img {
+    margin-top: 12px;
+    position:fixed;
+    height: 70px;
+    padding-left: 0px;
+}
+
+#facebook-button img {
+    margin-top: 12px;
+    position:fixed;
+    height: 70px;
+    padding-left: 70px;
 }

@@ -2,8 +2,13 @@
   <div class="navbar  navbar-inverse  navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
+        <div id="social-icons">
+  <%= link_to(image_tag('instagram.png', class: 'img-responsive', style: 'z-index:9999;'), 'http://instagram.com/hiddenhook', target: "_blank", id: 'instagram-button') %>
+  <%= link_to(image_tag('facebook.png', class: 'img-responsive', style: 'z-index:9999;'), 'https://www.facebook.com/pages/Hidden-Hook/476768435722961', target: "_blank", id: 'facebook-button') %>
+</div>
         <a class="navbar-logo" href="#home"><%= image_tag "logo.png", class: "logo" %></a>
       </div>
+
         <ul class="nav  navbar-nav  navbar-right">
           <li><a href="#flies" class="navtxt">products</a></li>
           <li><a href="#about" class="navtxt">about</a></li>
