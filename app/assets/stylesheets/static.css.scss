@@ -61,7 +61,7 @@ body {
   }
 
   .header-wrap {
-    background: asset-url('youngin.png') no-repeat center top;
+    background: image-url('youngin.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 140px;
     position: static;
@@ -108,7 +108,7 @@ body {
 }
 
 #testimonial {
-    background: image-url('bonerexplode.png') no-repeat center top;
+    background: asset-url('bonerexplode.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 90px;
     position: static;
