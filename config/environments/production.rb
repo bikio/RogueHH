@@ -10,7 +10,7 @@ HOOK::Application.configure do
   config.assets.version = '1.0'
   config.log_level = :info
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-   config.action_controller.asset_host = "http://damp-fortress-2082.herokuapp.com"
+   config.action_controller.asset_host = "http://hhook.herokuapp.com/"
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
