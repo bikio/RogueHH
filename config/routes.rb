@@ -1,4 +1,7 @@
 HOOK::Application.routes.draw do
+  get "line_item/create"
+  get "line_item/destroy"
+  get "product/show"
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get "static/index"
