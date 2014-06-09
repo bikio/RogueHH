@@ -1,7 +1,7 @@
-class ProductsController < ApplicationController
+class ProductsController < PublicController
 
   def show
-    @products = Product.all
+    @product = Product.find(params[:id])
     @line_item = LineItem.new
   end
 end
