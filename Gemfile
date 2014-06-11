@@ -8,6 +8,7 @@ gem 'devise'
 
 gem 'rails_admin'
 gem 'carrierwave'
+gem "mini_magick"
 
 gem 'sass-rails', '~> 4.0.0'
 
