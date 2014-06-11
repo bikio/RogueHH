@@ -139,7 +139,7 @@ body {
 }
 
 #about {
-    background: white;
+    background: asset-url('map.png') contain;
     position: static;
     min-height: 300px;
     padding-right: 100px;
