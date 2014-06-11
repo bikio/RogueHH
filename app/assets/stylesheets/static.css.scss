@@ -33,7 +33,7 @@
 
 .navbar {
   height:93px;
-  background-color: white;
+  background: asset-url('map.png');
   border-style: none;
   display: inline-block;
 }
@@ -57,7 +57,7 @@
 }
 
 body {
-  background-color: white;
+  background: asset-url('map.png');
   }
 
   .header-wrap {
