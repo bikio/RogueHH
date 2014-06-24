@@ -61,7 +61,7 @@ body {
   }
 
   .header-wrap {
-    background: asset-url('blue.png') no-repeat center top;
+    background: asset-url('youngin.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 140px;
     position: static;
@@ -103,7 +103,7 @@ body {
 }
 
 #testimonial {
-    background: asset-url('blue.png') no-repeat center top;
+    background: asset-url('youngin.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 90px;
     position: static;
@@ -200,6 +200,7 @@ ul.products li {
 }
 
 .prod-img {
+  border-radius: 10px;  
   height: 200px;
   width:300px;
 }
