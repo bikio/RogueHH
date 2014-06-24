@@ -97,12 +97,7 @@ body {
         text-align: center;
         color: #ecf0f1;
     }
-#products {
-  margin-bottom: 50px;
-  padding-left: 75px;
-  padding-right: 75px;
 
-}
 #products p {
   color:black;
 }
@@ -114,6 +109,7 @@ body {
     position: static;
     min-height: 300px;
     width: 100%;
+    clear:both;
 
     -webkit-background-size: 100%;
        -moz-background-size: 100%;
@@ -191,7 +187,16 @@ body {
     border-radius: 50%;
 }
 
+ul.products li {
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
 .prod-img {
-  height: 260px;
+  height: 250px;
   width:300px;
 }

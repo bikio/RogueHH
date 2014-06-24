@@ -1,13 +1,10 @@
-<div class="container" id="products" name="products" style="margin-top:90px">
-  
-
+<ul class="products" id="products">
 <% @products.each do |product| %>
+<li>
+<%= image_tag(product.image.url, class: 'prod-img') %>
 <h2><%= product.name %></h2>
 <p><%= product.description %></p>
 <p><%= product.price %></p>
-<%= image_tag(product.image.url, class: 'prod-img') %>
 <% end %>
-
-</p>
-
-</div>
+</li>
+</ul>
