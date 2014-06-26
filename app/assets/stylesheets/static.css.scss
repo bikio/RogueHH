@@ -61,7 +61,7 @@ body {
   }
 
   .header-wrap {
-    background: asset-url('youngin.png') no-repeat center top;
+    background: asset-url('blue.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 140px;
     position: static;
@@ -103,7 +103,7 @@ body {
 }
 
 #testimonial {
-    background: asset-url('youngin.png') no-repeat center top;
+    background: asset-url('blue.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 90px;
     position: static;
@@ -192,7 +192,7 @@ ul.products li {
     height: 300px;
     padding-bottom: 30px;
     padding-top: 30px;
-    margin-top: 50px;
+    margin-top: 78px;
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -203,4 +203,9 @@ ul.products li {
   border-radius: 10px;  
   height: 200px;
   width:300px;
+}
+
+.btn-primary {
+  background-color: grey;
+  border-style: none;
 }

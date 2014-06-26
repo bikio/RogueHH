@@ -4,7 +4,11 @@
 <%= image_tag(product.image.url, class: 'prod-img') %>
 <h2><%= product.name %></h2>
 <p><%= product.description %></p>
-<p><%= product.price %></p>
+<p>$<%= product.price %></p>
+<p>
+  <a class="btn btn-primary" data-toggle="modal" data-target="#myModal<%=product.id%>">
+    I Want It Nah</a>
+</p>
 <% end %>
 </li>
 </ul>
