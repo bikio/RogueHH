@@ -56,12 +56,17 @@
   padding-left: 0px;
 }
 
+.logohead {
+  padding-top: 140px;
+  padding-left: 350px;
+}
+
 body {
   background: asset-url('map.png');
   }
 
   .header-wrap {
-    background: asset-url('blue.png') no-repeat center top;
+    background: asset-url('ladder.png');
     background-attachment: fixed;
     padding-top: 140px;
     position: static;
@@ -95,7 +100,7 @@ body {
         line-height: 26px;
         letter-spacing: 0.5px;
         text-align: center;
-        color: #ecf0f1;
+        color: #708090;
     }
 
 #products p {
@@ -103,7 +108,7 @@ body {
 }
 
 #testimonial {
-    background: asset-url('blue.png') no-repeat center top;
+    background: asset-url('bonerexplode.png') no-repeat center top;
     background-attachment: fixed;
     padding-top: 90px;
     position: static;
