@@ -206,6 +206,10 @@ ul.products li {
 }
 
 .btn-primary {
-  background-color: grey;
+  background-color: #708090;
   border-style: none;
 }
+
+.btn-primary:hover {
+  background-color: #778899;
+  }
