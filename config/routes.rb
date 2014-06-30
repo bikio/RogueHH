@@ -1,7 +1,4 @@
 HOOK::Application.routes.draw do
-  get "line_items/create"
-  get "line_items/destroy"
-  get "products/show"
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.
