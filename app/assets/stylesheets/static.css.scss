@@ -57,8 +57,11 @@
 }
 
 .logohead {
-  padding-top: 140px;
-  padding-left: 350px;
+  display: block;
+  width: 350px;
+  margin-top: 200px;
+  /*background: asset-url('whh.png');*/
+  margin-left: 450px;
 }
 
 body {
