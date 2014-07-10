@@ -1,4 +1,6 @@
 HOOK::Application.routes.draw do
+  resources :carts
+
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.
@@ -7,6 +9,9 @@ HOOK::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root to: "static#index"
+
+  resources :line_items
+
   
   resources :products, only: [:show] do
     resources :line_items, only: [:create]
