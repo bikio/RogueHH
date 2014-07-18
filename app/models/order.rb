@@ -1,6 +1,6 @@
 class Order < ActiveRecord::Base
-  has_many :line_items
-
+    has_many :line_items
+    has_many :products, :through => :line_items
   def total
     self.line_items.inject(0) { |sum, item| sum += (item.price * item.quantity) }
   end
