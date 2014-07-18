@@ -1,19 +1,20 @@
-.DS_Store
-.env
-.secret
-/.powenv
+# Ignore bundler config.
 /.bundle
-/.rvmrc
-/.rbenv-version
-/.ruby-gemset
-/config/database.yml
+
+# Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
-/db/schema.rb
-/public/uploads
-/public/assets
+
+# Ignore all logfiles and tempfiles.
 /log/*.log
-/log/*.log.*
 /tmp
-/.yardoc
-/.rspec-local
+
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
