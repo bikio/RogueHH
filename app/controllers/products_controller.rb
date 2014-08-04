@@ -4,4 +4,8 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
     @line_item = LineItem.new
   end
+
+  def new
+  end
+  
 end
