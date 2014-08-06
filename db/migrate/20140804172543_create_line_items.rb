@@ -3,7 +3,7 @@ class CreateLineItems < ActiveRecord::Migration
     create_table :line_items do |t|
       t.string :name
       t.float :price
-      t.integer :quantity
+      t.integer :quantity, default :1
       t.integer :order_id
       t.string :color
 
