@@ -1,13 +1,7 @@
 class Cart < ActiveRecord::Base
   has_many :line_items, :dependent => :destroy
 
-def add_product(product_id)
-  current_item = line_items.find_by(product_id: product_id)
-  if current_item
-    current_item.increment(:quantity)
-  else
-    current_item = line_items.build(product_id: product_id, quantity: 1)
+  def add_product(product_id)
+    line_items.find_or_initialize_by(product_id: product_id).increment(:quantity)
   end
-  current_item
-end
 end
