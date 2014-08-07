@@ -2,6 +2,8 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
+<div id= "cart" name="cart">
+
 <h2> Your Cart </h2>
 <table>
   <% @cart.line_items.each do |item| %>
@@ -20,3 +22,4 @@
 
   <%= button_to "Empty Cart", @cart, method: :delete,
       data: {confirm: "You're Sure?"} %>
+</div>
