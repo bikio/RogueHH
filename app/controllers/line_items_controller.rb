@@ -15,7 +15,7 @@ def create
 
   respond_to do |format| 
     if @line_item.save
-      format.html { redirect_to "/#products" }
+      format.html { redirect_to "/#products", notice: "Product added to cart!!" }
       format.xml  { render :xml => @line_item,
         :status => :created, :location => @line_item }
     else
