@@ -12,13 +12,7 @@
         <ul class="nav  navbar-nav  navbar-right">
           <li><a href="#products" class="navtxt">products</a></li>
           <li><a href="#about" class="navtxt">about</a></li>
-            <!--<a href="#cartModal" class="navtxt", id='cart-button' data-target="#cartModal" data-toggle="modal">
-              <i class="fa fa-shopping-cart fa-2x"></i>
-              <%# if @order.line_items.any? %>
-                <%#= pluralize(@order.line_items.sum(:quantity), 'fly') %>
-              <%# end %>
-            </a>-->
-          </li>
+            <li><a href="#cart" class="navtxt"id='cart-button'><%= image_tag "cart.png" %></a></li>
         </ul>
       </div>
     </div>
