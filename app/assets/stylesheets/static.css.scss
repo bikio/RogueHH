@@ -231,54 +231,6 @@ ul.products li {
   margin-top: 200px;
 }
 
-.notice-wrap {
-    position: fixed;
-    left: 0;
-    width: 100%;
-    z-index:1;
-    top:-20px;
-    
-    animation: slideup 2.5s;
-    -moz-animation: slideup 2.5s;
-    -webkit-animation: slideup 2.5s;
-    -o-animation: slideup 2.5s;
-    cursor:pointer;
-}
-
-#notice
-{
-    position:relative;
-    color:blue;
-}
-
-@keyframes slideup
-{
-0%   {top:0px;}
-75%  {top:0px;}
-100% {top:-20px;}
-}
-
-@-moz-keyframes slideup
-{
-0%   {top:0px;}
-75%  {top:0px;}
-100% {top:-20px;}
-}
-
-@-webkit-keyframes slideup
-{
-0%   {top:0px;}
-75%  {top:0px;}
-100% {top:-20px;}
-}
-
-@-o-keyframes slideup
-{
-0%   {top:0px;}
-75%  {top:0px;}
-100% {top:-20px;}
-}
-
 
 
 
