@@ -195,22 +195,47 @@ body {
     border-radius: 50%;
 }
 
-ul.products li {
-    width: 200px;
-    height: 300px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 78px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: inline-block;
+#products {
+  margin: 40px;
+  margin-left: 250px;
 }
 
-.prod-img {
-  border-radius: 10px;  
+ul.produl li {
+  list-style-type: none;
+  width: 800px;
+  margin-top: 50px;
+}
+
+li.prodli h3 {
+ font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li.prodli {
+  padding: 10px;
+  overflow: auto;
+}
+
+
+li.prodli {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li.prodli :hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+li.prodli p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+
+.prodli-img {
+  float: left;
+  margin: 0 15px 0 0;
+  width:200px;
   height: 200px;
-  width:300px;
 }
 
 .btn-primary {

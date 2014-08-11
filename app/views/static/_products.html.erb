@@ -1,9 +1,9 @@
   <div id= "products" name="products">
-    <ul class="products" id="products">
+    <ul class="produl" id="produl">
       <% @products.each do |product| %>
-      <li>
-        <%= image_tag(product.image.url, class: 'prod-img') %>
-          <h2><%= product.name %></h2>
+      <li class="prodli" id="prodli">
+        <%= image_tag(product.image.url, class: 'prodli-img') %>
+          <h3><%= product.name %></h3>
           <p><%= product.description %></p>
           <span class="price"><%= number_to_currency(product.price) %></span>
           <!--<p> <%= product.colors %> </p>-->
