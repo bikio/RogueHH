@@ -11,7 +11,11 @@
         <ul class="nav  navbar-nav  navbar-right">
           <li><a href="/#products" class="navtxt">products</a></li>
           <li><a href="/#about" class="navtxt">about</a></li>
-            <li class="navtxt"id='cart-button'><%= link_to(image_tag("cart.png"),@cart)%></li>
+            <li class="navtxt"id='cart-button'> 
+                <%= link_to @cart do %> 
+                <%= image_tag("cart.png") %> 
+                  <% end %> 
+              </li>
         </ul>
       </div>
     </div>
