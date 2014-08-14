@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
- @media (max-width: 768px) {
+ /*@media (max-width: 768px) {
   .nav {
     display: none;
   }
@@ -30,7 +30,7 @@
     display: none;
   }
 }
-
+*/
 .navbar {
   height:93px;
   background: asset-url('map.png');
@@ -238,10 +238,6 @@ li.prodli p {
   border-style: none;
 }
 
-.btn-primary:hover {
-  background-color: #778899;
-  }
-
 #cart-button img {
   width: 30px;
   height: 28px;
@@ -250,28 +246,4 @@ li.prodli p {
   margin-left: 300px;
   margin-top: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
