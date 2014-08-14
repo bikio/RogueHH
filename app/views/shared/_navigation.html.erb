@@ -11,11 +11,13 @@
         <ul class="nav  navbar-nav  navbar-right">
           <li><a href="/#products" class="navtxt">products</a></li>
           <li><a href="/#about" class="navtxt">about</a></li>
+            <% unless @cart.line_items.empty? %>
             <li class="navtxt"id='cart-button'> 
                 <%= link_to @cart do %> 
                 <%= image_tag("cart.png") %> 
                   <% end %> 
               </li>
+              <% end %>
         </ul>
       </div>
     </div>
