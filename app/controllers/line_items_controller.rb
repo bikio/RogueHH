@@ -11,7 +11,7 @@ end
 def create
   product = Product.find(params[:product_id])
   @line_item = @cart.add_product(product.id)
-  @line_item.quantity = params[:line_item][:quantity]
+  @line_item.quantity = params[:line_item][:quantity] || 1
 
 
   respond_to do |format| 
