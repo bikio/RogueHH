@@ -139,6 +139,7 @@ body {
   padding-left: 100px;
   text-align: center;
 }
+
 #testimonial p {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -146,6 +147,40 @@ body {
   text-align: center;
 }
 
+#flybox {
+    background: asset-url('map.png') no-repeat center top;
+    background-attachment: fixed;
+    padding-top: 90px;
+    position: static;
+    min-height: 300px;
+    width: 100%;
+    clear:both;
+
+    -webkit-background-size: 100%;
+       -moz-background-size: 100%;
+            background-size: 100%;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+}
+#flybox p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#flybox h2 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  }
 #about {
     background: asset-url('map.png') contain;
     position: static;
