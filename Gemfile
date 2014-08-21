@@ -12,6 +12,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem "binding_of_caller"
 gem 'turbolinks'
+gem 'jquery-turbolinks', '~> 2.0.2'
 gem 'jbuilder', '~> 1.2'
 
 group :development do
