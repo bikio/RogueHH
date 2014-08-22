@@ -152,6 +152,7 @@ body {
     background-attachment: fixed;
     position: static;
     padding-top: 30px;
+    padding-bottom: 50px;
     min-height: 300px;
     width: 100%;
     clear:both;
@@ -167,10 +168,11 @@ body {
 #flybox p {
   color: black;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 17px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 40px;
 }
 
 #flybox h2 {
