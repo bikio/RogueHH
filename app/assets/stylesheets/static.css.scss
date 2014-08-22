@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
- /*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .nav {
     display: none;
   }
@@ -30,7 +30,7 @@
     display: none;
   }
 }
-*/
+
 .navbar {
   height:93px;
   background: asset-url('map.png');
@@ -48,7 +48,7 @@
  } 
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-    color: black;
+    color: blue;
     background-color: transparent;
 }
 
@@ -113,6 +113,24 @@ body {
 #products p {
   color:black;
 }
+
+#custer {
+  padding-left: 80px;
+}
+
+#custer h1 a {
+  color: gray !important;
+  font-size: 50px;
+  padding-top: 80px;
+  padding-left: 220px;
+  text-decoration: none;
+}
+
+#custer p a {
+  text-decoration: none;
+  color: salmon !important;
+}
+
 
 #testimonial {
     background: asset-url('bonerexplode.png') no-repeat center top;
@@ -267,11 +285,6 @@ li.prodli {
   overflow: auto;
 }
 
-
-li.prodli {
-  padding: 10px;
-  overflow: auto;
-}
 
 li.prodli p {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
