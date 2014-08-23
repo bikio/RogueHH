@@ -4,7 +4,7 @@ HOOK::Application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :carts
   
-  # match '/rental', to: 'static_pages/rental', via: 'get'
+  # match '/rental', to: 'static_pages#rental', via: 'get'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
