@@ -114,6 +114,20 @@ body {
   color:black;
 }
 
+input[type=text] {
+  width: 30px;
+}
+
+input {
+  margin-top: 15px;
+}
+
+.price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: dimgray !important;
+}
+
 #custer {
   margin-top: 50px;
   padding-left: 80px;
