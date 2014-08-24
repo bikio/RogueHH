@@ -120,17 +120,25 @@ body {
 }
 
 #custer h1 a {
-  color: gray !important;
+  color: dimgray !important;
   font-size: 50px;
   padding-left: 220px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#custer p a {
+#custer a {
   text-decoration: none;
   color: salmon !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
+#custer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: dimgray !important;
+}
 
 #testimonial {
     background: asset-url('bonerexplode.png') no-repeat center top;
@@ -149,6 +157,7 @@ body {
        -moz-background-size: cover;
             background-size: cover;
 }
+
 #testimonial h4 {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -164,7 +173,7 @@ body {
   font-size: 25px;
   text-align: center;
 }
-
+/*
 #flybox {
     background: asset-url('map.png') no-repeat center top;
     background-attachment: fixed;
@@ -200,7 +209,8 @@ body {
   padding-right: 100px;
   padding-left: 100px;
   text-align: center;
-  }
+  }*/
+
 #about {
     background: asset-url('map.png') contain;
     position: static;
@@ -277,7 +287,8 @@ ul.produl li {
 }
 
 li.prodli h3 {
- font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ color: dimgray !important;
 }
 
 li.prodli {
@@ -287,15 +298,21 @@ li.prodli {
 
 
 li.prodli p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  font-family: 'Open Sans', sans-serif;
+  color: dimgray !important;
 }
 
 
 .prodli-img {
   float: left;
+  opacity: .9;
   margin: 0 15px 0 0;
-  width:200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
+}
+
+.prodli-img:hover {
+  opacity: 1;
 }
 
 .btn-primary {
