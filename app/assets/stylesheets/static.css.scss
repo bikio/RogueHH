@@ -110,10 +110,6 @@ body {
         color: #708090;
     }
 
-#products p {
-  color:black;
-}
-
 input[type=text] {
   width: 30px;
 }
@@ -304,6 +300,7 @@ ul.produl li {
 }
 
 li.prodli h3 {
+ margin-top: 5px;
  font-family: 'Open Sans', sans-serif;
  color: dimgray !important;
 }
@@ -315,6 +312,7 @@ li.prodli {
 
 
 li.prodli p {
+  margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
   color: dimgray !important;
 }
