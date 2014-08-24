@@ -229,8 +229,8 @@ input {
     background: asset-url('map.png') contain;
     position: static;
     min-height: 300px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 120px;
+    padding-left: 120px;
     margin-bottom: 50px;
 
 
@@ -245,6 +245,9 @@ input {
 
 #about p {
   margin-top: 30px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: dimgray !important;
 }
 
 
