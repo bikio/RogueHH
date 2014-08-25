@@ -2,12 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background: asset-url('ladder.png') !important;
-}
 
 #cart {
-  color: white;
+  color: dimgray;
   position: absolute;
   margin-right: auto;
   margin-top: 100px;
