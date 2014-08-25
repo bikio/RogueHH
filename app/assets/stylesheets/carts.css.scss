@@ -1,3 +1,30 @@
 // Place all the styles related to the carts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: asset-url('ladder.png') !important;
+}
+
+#cart {
+  color: white;
+  position: absolute;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-left: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#qty {
+  padding: 5px;
+}
+
+td, th {
+  padding: 15px;
+  font-size: 20px !important;
+}
+
+h2 {
+  font-size:30px;
+}
