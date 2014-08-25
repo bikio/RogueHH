@@ -8,8 +8,8 @@
       <p><%= product.description %></p>
       <span class="price"><%= number_to_currency(product.price) %></span>
       <%= form_for :line_item, url: product_line_items_path(product) do |f| %>
-      <%= f.text_field 'quantity' %>
-      <%= f.submit 'Add!' %>
+      <p class= "qty"> Quantity </p><%= f.text_field 'quantity' %>
+      <%= f.submit 'Add To Cart !' %>
       <% end %>
       <% end %>
       </li>

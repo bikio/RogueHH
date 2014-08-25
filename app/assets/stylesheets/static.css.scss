@@ -111,16 +111,34 @@ body {
     }
 
 input[type=text] {
-  width: 30px;
+  width: 35px;
+  border-radius: 30px;
+  background-color: honeydew;
+  border-color: lightgray;
+  margin-left: 5px;
+  margin-bottom: 60px !important;
 }
 
 input {
   margin-top: 15px;
 }
 
-.price {
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  width: 100px;
+  border-radius: 40px;
+  border-color: whitesmoke;
+  background-color:white;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  color:dimgray;
+}
+
+
+
+.price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   color: dimgray !important;
 }
 
@@ -312,9 +330,13 @@ li.prodli {
 
 
 li.prodli p {
-  margin-top: 40px;
+  margin-top: 20px;
   font-family: 'Open Sans', sans-serif;
   color: dimgray !important;
+}
+
+p.qty {
+  margin-bottom: -10px;
 }
 
 
