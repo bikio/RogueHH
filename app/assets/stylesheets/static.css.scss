@@ -2,40 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@media (max-width: 768px) {
-  .nav {
-    display: none;
-  }
-  #introtxt {
-    font-size: 25px;
-    margin-top: 250px;
-    margin-left: 20px;
-  }
-  #introsmall {
-    font-size: 20px;
-    margin-left: 20px;
-  }
 
-  .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #facebook-button, #instagram-button {
-    display: none;
-  }
-
-  #testimonial h4, #testimonial p {
-    display: none;
-  }
-}
 
 .navbar {
   height:93px;
   background: asset-url('map.png');
   border-style: none;
   display: inline-block;
+  box-shadow: 1px 5px 3px rgba(0,0,0,.1);
 }
 
 .navbar ul li {
@@ -363,4 +337,8 @@ p.qty {
   width: 30px;
   height: 28px;
 }  
+
+
+
+
 
