@@ -2,8 +2,8 @@
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
-
 <div id= "cart" name="cart">
+<body>
 
 <h2> Your Cart </h2>
 <table>
@@ -11,7 +11,7 @@
   <tr>
     <td id="qty"><%= item.quantity %> &times;</td>
     <td><%= item.product.name %></td>
-    <td class="item_price"><%= number_to_currency(item.total_price) %></td>
+    <td class="item_price"><%= number_to_currency(item.total_price) %></td> 
     </tr>
   <% end %>
 
@@ -20,8 +20,8 @@
     <td class="total_cell"><%= number_to_currency(@cart.total_price) %></td>
   </tr>
 </table>
-
+  <%= button_to "Edit Cart", edit_cart_path(@cart), method: :get%>
   <%= button_to "Empty Cart", @cart, method: :delete,
       data: {confirm: "You're Sure Dude..."} %>
 </div>
-
+</body>
