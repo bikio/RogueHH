@@ -21,6 +21,10 @@
     font-family: 'Open Sans', sans-serif;
  } 
 
+ a.navtxt {
+  outline: 0 !important;
+ }
+
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
     color: lightseagreen;
     background-color: transparent;
@@ -243,7 +247,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 #instagram-button img,
 #facebook-button img {
     background: none;
-    margin-top: 15px;
+    position: absolute; 
+    left: 7em;
 }
 
 #instagram-button img {
