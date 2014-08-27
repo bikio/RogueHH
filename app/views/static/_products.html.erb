@@ -4,7 +4,7 @@
       <li class="prodli" id="prodli">
         <%#= image_tag(product.image.url, class: 'prodli-img') %>
         <%= image_tag "pshake.png", class: "prodli-img" %>
-          <h3><%= product.name %></h3>
+          <h3><%= product.name %></h3><h5><%= product.color %></h5>
       <p><%= product.description %></p>
       <span class="price"><%= number_to_currency(product.price) %></span>
       <%= form_for :line_item, url: product_line_items_path(product) do |f| %>
