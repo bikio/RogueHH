@@ -21,22 +21,26 @@
     font-family: 'Open Sans', sans-serif;
  } 
 
- a.navtxt {
-  outline: 0 !important;
- }
-
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
     color: lightseagreen;
     background-color: transparent;
+}
+
+/*firefox's stupid border*/
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
 }
 
 .logo {
   height: 80px;
   display: inline-block;
   margin: 0 auto;
-  outline: 0 !important;
   margin-top: 7px;
   padding-left: 0px;
+}
+
+a.logo {
+  outline: 0 !important;
 }
 
 .logohead {
