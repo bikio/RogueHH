@@ -19,10 +19,11 @@
  .navtxt {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    color: dimgray !important;
  } 
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-    color: lightseagreen;
+    color: lightseagreen !important;
     background-color: transparent;
 }
 
@@ -129,7 +130,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   margin-top: 50px;
   padding-left: 100px;
   padding-right: 80px;
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -151,7 +151,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: dimgray !important;
-  padding-left: 70px;
 }
 
 #testimonial {
