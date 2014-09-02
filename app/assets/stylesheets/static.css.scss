@@ -353,10 +353,36 @@ p.qty {
 }  
 
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:910px) {
   .nav li {
     display: none;
   }
+
+  #cart-button img {
+    width: 10px !important;
+  }
+
+  #facebook-button img, #instagram-button img {
+    padding-top: 4px;
+    width:80px;
+  }
+  #facebook-button img {
+    margin-left: 400px;
+  }
+  #instagram-button img {
+    margin-left: 495px;
+  }
 }
 
-
+@media screen and (max-width:650px) {
+  #facebook-button img {
+    margin-left: 200px;
+    width:50px;
+    margin-top: 20px;
+  }
+  #instagram-button img {
+    margin-left: 250px;
+    width:50px;
+    margin-top: 20px;
+  }
+}
