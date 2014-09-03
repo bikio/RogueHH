@@ -325,6 +325,8 @@ li.prodli p {
 
 p.qty {
   margin-bottom: -10px;
+  font-size: 16px;
+  word-spacing: 18px;
 }
 
 
@@ -385,6 +387,11 @@ p.qty {
     width:50px;
     margin-top: 20px;
   }
+}
+
+#line_item_color, #line_item_color:visited,  
+#line_item_color:active {
+    border:none !important;
 }
 
 select#line_item_color {
