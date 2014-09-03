@@ -4,11 +4,13 @@
       <li class="prodli" id="prodli">
         <%#= image_tag(product.image.url, class: 'prodli-img') %>
         <%= image_tag "pshake.png", class: "prodli-img" %>
-          <h3><%= product.name %></h3><h5><%= product.color %></h5>
+          <h3><%= product.name %></h3>
       <p><%= product.description %></p>
       <span class="price"><%= number_to_currency(product.price) %></span>
       <%= form_for :line_item, url: product_line_items_path(product) do |f| %>
-      <p class= "qty"> Quantity </p><%= f.text_field 'quantity' %>
+      <p class= "qty"> Quantity </p><%= f.text_field 'quantity' %> 
+      <%= f.select(:size, options_for_select(['4/0', '6/0', '8/0'])) %>
+      <%= f.select(:color, options_for_select(['Blood Orange', 'Juicy Magenta', 'Bronson Brown'])) %>
       <%= f.submit 'Add To Cart !' %>
       <% end %>
       <% end %>

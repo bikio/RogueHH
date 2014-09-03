@@ -97,7 +97,7 @@ body {
 input[type=text] {
   width: 35px;
   border-radius: 30px;
-  background-color: lightsteelblue;
+  background-color: lightgray;
   border-color: lightgray;
   margin-left: 5px;
   margin-bottom: 60px !important;
@@ -112,7 +112,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   width: 100px;
   border-radius: 40px;
   border-color: whitesmoke;
-  background-color:white;
+  background-color:whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color:dimgray;
@@ -385,4 +385,16 @@ p.qty {
     width:50px;
     margin-top: 20px;
   }
+}
+
+select#line_item_color {
+  background-color: whitesmoke;
+  color:dimgray;
+  border:none;
+}
+
+select#line_item_size {
+  background-color: whitesmoke;
+  color:dimgray;
+  border:none;
 }
