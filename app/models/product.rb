@@ -1,6 +1,6 @@
 class Product < ActiveRecord::Base
   mount_uploader :image, ImageUploader
-  has_many :colors
+  has_many :colors, foreign_key: 'product_id'
   has_many :line_items
   has_many :orders, :through => :line_items
 
