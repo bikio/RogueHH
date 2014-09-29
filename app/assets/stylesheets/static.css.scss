@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
 .navbar {
   height:93px;
   background: asset-url('map.png');
@@ -55,6 +54,7 @@ a.logo {
 
 body {
   background: asset-url('map.png');
+  margin-top: 0px;
   }
 
   .header-wrap {
@@ -282,10 +282,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     border-radius: 50%;
 }
 
-#products {
+/*#products {
   margin-top: 90px;
 }
-
+*/
 /*#text_field { 
     background: white; 
     border: 1px solid #DDD; 
