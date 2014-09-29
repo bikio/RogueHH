@@ -355,7 +355,7 @@ p.qty {
 }  
 
 
-@media screen and (max-width:910px) {
+@media screen and (max-device-width:910px) {
   .nav li {
     display: none;
   }
@@ -376,7 +376,7 @@ p.qty {
   }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-device-width:650px) {
   #facebook-button img {
     margin-left: 200px;
     width:50px;
