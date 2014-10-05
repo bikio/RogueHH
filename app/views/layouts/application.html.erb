@@ -3,8 +3,8 @@
 <head>
   <title>HOOK</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
@@ -12,6 +12,7 @@
 <body>
     <%= render 'shared/navigation' %>
     <%= yield %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
 </body>
 </html>
